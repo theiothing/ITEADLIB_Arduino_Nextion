@@ -1,3 +1,7 @@
+/*                   THEIOTHING FORK
+*   MODIFIED SERIAL DEFINITION TO USE IT FOR ESP8266
+*/
+
 /**
  * @file NexConfig.h
  *
@@ -24,17 +28,20 @@
  * Define DEBUG_SERIAL_ENABLE to enable debug serial. 
  * Comment it to disable debug serial. 
  */
-#define DEBUG_SERIAL_ENABLE
+//#define DEBUG_SERIAL_ENABLE
+
+// non si può usare se non sul MEGA che ha 2 seriali 1 per il nextion una per la seriale
+
 
 /**
  * Define dbSerial for the output of debug messages. 
  */
-#define dbSerial Serial
+//#define dbSerial Serial1
 
 /**
  * Define nexSerial for communicate with Nextion touch panel. 
  */
-#define nexSerial Serial2
+#define nexSerial Serial
 
 
 #ifdef DEBUG_SERIAL_ENABLE
