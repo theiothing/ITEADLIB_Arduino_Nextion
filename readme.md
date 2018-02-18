@@ -1,6 +1,7 @@
-modified the file NexConfig.h
-this version uses only one Serial to communicate with display
-no debugging serial available
+modified the file NexConfig.h.
+
+This version uses only one Serial to communicate with Nexion display.
+No debugging serial available
 
 # Nextion
 
