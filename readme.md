@@ -1,4 +1,6 @@
-@mainpage Home Page
+modified the file NexConfig.h
+this version uses only one Serial to communicate with display
+no debugging serial available
 
 # Nextion
 
